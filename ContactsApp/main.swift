@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
+let locator = AppServiceLocator()
+locator.listPresenter.onInitialize()
 
+while(true) {
+    // Select Option to Add Contact
+    locator.listPresenter.onInputContact()
+}
