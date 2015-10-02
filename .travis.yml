@@ -1,0 +1,4 @@
+language: objective-c
+osx_image: xcode7
+xcode_project: ContactsApp.xcodeproj
+xcode_scheme: ConcatsApp Test
