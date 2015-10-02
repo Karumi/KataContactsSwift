@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Karumi/KataContactsSwift.svg?branch=master)](https://travis-ci.org/Karumi/KataContactsSwift)
 # Clean Architecture Kata
 
 - We are here to practice Clean Architecture Development.
@@ -20,9 +21,4 @@
  - UI will be the command line
  - All data is local
  - There is no persistance between execution
-
----
-
-
-
 ---
