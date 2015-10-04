@@ -20,16 +20,13 @@
 		6BBD31601BBC37740095BE4F /* ContactRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD315F1BBC37740095BE4F /* ContactRepositoryProtocol.swift */; settings = {ASSET_TAGS = (); }; };
 		6BBD31611BBC39660095BE4F /* ContactRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD315F1BBC37740095BE4F /* ContactRepositoryProtocol.swift */; settings = {ASSET_TAGS = (); }; };
 		6BBD31631BBC3C1D0095BE4F /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31621BBC3C1D0095BE4F /* Mocks.swift */; settings = {ASSET_TAGS = (); }; };
-		6BBD316A1BBC3DBA0095BE4F /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31691BBC3DBA0095BE4F /* ContactRepository.swift */; settings = {ASSET_TAGS = (); }; };
-		6BBD316C1BBC3DF90095BE4F /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316B1BBC3DF90095BE4F /* MemoryDataSource.swift */; settings = {ASSET_TAGS = (); }; };
-		6BBD316E1BBC3E640095BE4F /* DataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316D1BBC3E640095BE4F /* DataSourceProtocol.swift */; settings = {ASSET_TAGS = (); }; };
-		6BBD31761BBC448F0095BE4F /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31691BBC3DBA0095BE4F /* ContactRepository.swift */; settings = {ASSET_TAGS = (); }; };
-		6BBD31771BBC448F0095BE4F /* DataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316D1BBC3E640095BE4F /* DataSourceProtocol.swift */; settings = {ASSET_TAGS = (); }; };
-		6BBD31781BBC448F0095BE4F /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316B1BBC3DF90095BE4F /* MemoryDataSource.swift */; settings = {ASSET_TAGS = (); }; };
 		F91638941BC0EF6300929139 /* ContactsInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91638931BC0EF6300929139 /* ContactsInitializer.swift */; settings = {ASSET_TAGS = (); }; };
 		F91638981BC0F66C00929139 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91638971BC0F66C00929139 /* Contact.swift */; settings = {ASSET_TAGS = (); }; };
 		F916389C1BC0F8E100929139 /* ValidateContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916389B1BC0F8E100929139 /* ValidateContact.swift */; settings = {ASSET_TAGS = (); }; };
 		F916389E1BC106C500929139 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916389D1BC106C500929139 /* Exception.swift */; settings = {ASSET_TAGS = (); }; };
+		F91638A21BC10B2800929139 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F916389F1BC10B2800929139 /* ContactRepository.swift */; settings = {ASSET_TAGS = (); }; };
+		F91638A31BC10B2800929139 /* DataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91638A01BC10B2800929139 /* DataSourceProtocol.swift */; settings = {ASSET_TAGS = (); }; };
+		F91638A41BC10B2800929139 /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91638A11BC10B2800929139 /* MemoryDataSource.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,13 +53,13 @@
 		6BBD315A1BBC23E70095BE4F /* GetContactDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetContactDetail.swift; sourceTree = "<group>"; };
 		6BBD315F1BBC37740095BE4F /* ContactRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepositoryProtocol.swift; sourceTree = "<group>"; };
 		6BBD31621BBC3C1D0095BE4F /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
-		6BBD31691BBC3DBA0095BE4F /* ContactRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactRepository.swift; path = ../ContactRepository.swift; sourceTree = "<group>"; };
-		6BBD316B1BBC3DF90095BE4F /* MemoryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MemoryDataSource.swift; path = ../MemoryDataSource.swift; sourceTree = "<group>"; };
-		6BBD316D1BBC3E640095BE4F /* DataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSourceProtocol.swift; path = ../DataSourceProtocol.swift; sourceTree = "<group>"; };
 		F91638931BC0EF6300929139 /* ContactsInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsInitializer.swift; sourceTree = "<group>"; };
 		F91638971BC0F66C00929139 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		F916389B1BC0F8E100929139 /* ValidateContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateContact.swift; sourceTree = "<group>"; };
 		F916389D1BC106C500929139 /* Exception.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exception.swift; sourceTree = "<group>"; };
+		F916389F1BC10B2800929139 /* ContactRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
+		F91638A01BC10B2800929139 /* DataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceProtocol.swift; sourceTree = "<group>"; };
+		F91638A11BC10B2800929139 /* MemoryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,10 +133,10 @@
 		F91638951BC0F37B00929139 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD31691BBC3DBA0095BE4F /* ContactRepository.swift */,
+				F916389F1BC10B2800929139 /* ContactRepository.swift */,
+				F91638A01BC10B2800929139 /* DataSourceProtocol.swift */,
+				F91638A11BC10B2800929139 /* MemoryDataSource.swift */,
 				6BBD315F1BBC37740095BE4F /* ContactRepositoryProtocol.swift */,
-				6BBD316D1BBC3E640095BE4F /* DataSourceProtocol.swift */,
-				6BBD316B1BBC3DF90095BE4F /* MemoryDataSource.swift */,
 			);
 			name = Repository;
 			sourceTree = "<group>";
@@ -242,11 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BBD31771BBC448F0095BE4F /* DataSourceProtocol.swift in Sources */,
-				6BBD31781BBC448F0095BE4F /* MemoryDataSource.swift in Sources */,
 				F916389C1BC0F8E100929139 /* ValidateContact.swift in Sources */,
 				6BBD31591BBC233C0095BE4F /* AddContact.swift in Sources */,
-				6BBD31761BBC448F0095BE4F /* ContactRepository.swift in Sources */,
+				F91638A41BC10B2800929139 /* MemoryDataSource.swift in Sources */,
 				6BBD31601BBC37740095BE4F /* ContactRepositoryProtocol.swift in Sources */,
 				F91638941BC0EF6300929139 /* ContactsInitializer.swift in Sources */,
 				6BBD31431BBC19620095BE4F /* ContactProtocol.swift in Sources */,
@@ -254,6 +249,8 @@
 				6BBD315B1BBC23E70095BE4F /* GetContactDetail.swift in Sources */,
 				F91638981BC0F66C00929139 /* Contact.swift in Sources */,
 				6BBD31451BBC1DC20095BE4F /* GetContacts.swift in Sources */,
+				F91638A31BC10B2800929139 /* DataSourceProtocol.swift in Sources */,
+				F91638A21BC10B2800929139 /* ContactRepository.swift in Sources */,
 				6BBD313C1BBC19250095BE4F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,14 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BBD315C1BBC248F0095BE4F /* AddContact.swift in Sources */,
-				6BBD316C1BBC3DF90095BE4F /* MemoryDataSource.swift in Sources */,
-				6BBD316E1BBC3E640095BE4F /* DataSourceProtocol.swift in Sources */,
 				6BBD31541BBC212A0095BE4F /* ContactProtocol.swift in Sources */,
 				6BBD31611BBC39660095BE4F /* ContactRepositoryProtocol.swift in Sources */,
 				6BBD315D1BBC248F0095BE4F /* GetContactDetail.swift in Sources */,
 				6BBD31631BBC3C1D0095BE4F /* Mocks.swift in Sources */,
 				6BBD31551BBC212A0095BE4F /* GetContacts.swift in Sources */,
-				6BBD316A1BBC3DBA0095BE4F /* ContactRepository.swift in Sources */,
 				6BBD314D1BBC1E3B0095BE4F /* UseCaseTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
