@@ -49,4 +49,26 @@ class UseCaseTest: XCTestCase {
         XCTAssertEqual(addedContact.lastName, contact.lastName)
         XCTAssertEqual(addedContact.phonenumber, contact.phonenumber)
     }
+    
+    func testListContacts() {
+        let contactRepository = MockContactRepository()
+        let contact = NewContact(
+            firstName: "Vincent",
+            lastName: "Freeman",
+            phonenumber: "612 34 56 79"
+        )
+        AddContact(contactRepository: contactRepository).execute(contact)
+        GetContacts(contactRepository: contactRepository).execute().map { contacts in
+            if contacts.count > 0 {
+                print("Printing contacts")
+                contacts.forEach {
+                    print($0)
+                }
+                Result(value: print("Total Contacts Done: \(contacts.count)"))
+            } else {
+                Result(value: print("No contacts"))
+            }
+        }
+    }
+    
 }
