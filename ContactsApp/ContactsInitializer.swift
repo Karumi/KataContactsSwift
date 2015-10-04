@@ -29,7 +29,7 @@ class ContactsInitializer {
     // MARK: UI Inputs For Contact Details
     
     func getFirstName() -> String {
-        print("First Name: ", terminator: "")
+        print("\nFirst Name: ", terminator: "")
         return readLine() ?? ""
     }
     func getLastName() -> String {
@@ -44,7 +44,7 @@ class ContactsInitializer {
     // MARK: Operations on contact
     
     func listContacts() {
-        print("Fetching contacts ...")
+        print("\nFetching contacts ...")
         let getContacts = GetContacts(contactRepository: contactRepository)
         let contacts = getContacts.execute()
         showContacts(contacts)
@@ -55,10 +55,14 @@ class ContactsInitializer {
         let lastName = getLastName()
         let phone = getPhone()
         let contact = Contact(firstName: firstName, lastName: lastName, phonenumber : phone)
-        if(isContactInfoValid(contact)) {
+        
+        do {
+            try validateContactDetails(contact)
             saveContactInRepo(contact)
-        } else {
-            print("Invalid contact details.")
+        } catch let error as Exception {
+            print (error.errorMessage)
+        } catch {
+            print ("Ooops! Some unknown error has happened!")
         }
     }
     
@@ -72,9 +76,9 @@ class ContactsInitializer {
             contacts.forEach {
                 print($0)
             }
-            print("Total: \(contacts.count)")
+            print("Total number of contacts: \(contacts.count)")
         } else {
-            print("No contacts")
+            print("No contacts found!")
         }
     }
     

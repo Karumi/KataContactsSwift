@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Exception : NSObject {
+class Exception : NSObject, ErrorType {
     
     // MARK: Properties
     

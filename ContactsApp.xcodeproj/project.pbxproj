@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				6BBD313A1BBC19250095BE4F /* ContactsApp */,
-				6BBD314B1BBC1E3B0095BE4F /* ConcatsApp Test */,
+				6BBD314B1BBC1E3B0095BE4F /* ContactsApp Test */,
 				6BBD31391BBC19250095BE4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,13 +111,14 @@
 			path = ContactsApp;
 			sourceTree = "<group>";
 		};
-		6BBD314B1BBC1E3B0095BE4F /* ConcatsApp Test */ = {
+		6BBD314B1BBC1E3B0095BE4F /* ContactsApp Test */ = {
 			isa = PBXGroup;
 			children = (
 				6BBD314C1BBC1E3B0095BE4F /* UseCaseTest.swift */,
 				6BBD314E1BBC1E3B0095BE4F /* Info.plist */,
 				6BBD31621BBC3C1D0095BE4F /* Mocks.swift */,
 			);
+			name = "ContactsApp Test";
 			path = "ConcatsApp Test";
 			sourceTree = "<group>";
 		};

@@ -7,14 +7,22 @@
 
 import Foundation
 
-func isContactInfoValid(contact: Contact) -> Bool {
-    return isValidName(contact.firstName) && isValidName(contact.lastName) && isValidPhonenumber(contact.phonenumber)
+func validateContactDetails(contact: Contact) throws -> Bool {
+    return try isValidName(contact.firstName) && isValidName(contact.lastName) && isValidPhonenumber(contact.phonenumber)
 }
 
-private func isValidName(input: String) -> Bool {
-    return !input.isEmpty
+private func isValidName(input: String) throws -> Bool {
+    if(input.isEmpty) {
+        throw Exception(errorMessage: "Name cannot be empty")!
+    } else {
+        return true
+    }
 }
 
-private func isValidPhonenumber(input: String) -> Bool {
-    return !input.isEmpty
+private func isValidPhonenumber(input: String) throws -> Bool {
+    if(input.isEmpty) {
+        throw Exception(errorMessage: "Phone Number cannot be empty")!
+    } else {
+        return true
+    }
 }
