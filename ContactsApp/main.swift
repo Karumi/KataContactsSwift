@@ -2,16 +2,13 @@
 //  main.swift
 //  ContactsApp
 //
-//  Created by Davide Mendolia on 30/09/15.
-//  Copyright © 2015 GoKarumi S.L. All rights reserved.
+//  Created by Rohit Bansal on 04/10/15.
 //
 
 import Foundation
 
-let locator = AppServiceLocator()
-locator.listPresenter.onInitialize()
+let contactsInitializer = ContactsInitializer()
+let contactRepository = contactsInitializer.initContactsRepository()
 
-while(true) {
-    // Select Option to Add Contact
-    locator.listPresenter.onInputContact()
-}
+contactsInitializer.initOperations()
+

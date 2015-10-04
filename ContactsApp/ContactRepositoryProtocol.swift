@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  ContactRepositoryProtocol.swift
 //  ContactsApp
 //
 //  Created by Davide Mendolia on 30/09/15.
@@ -9,7 +9,9 @@
 import Foundation
 
 protocol ContactRepositoryProtocol {
+    
     func getAll() -> [Contact]
     func add(contact: Contact)
     func get(index: Int) -> Contact
+
 }

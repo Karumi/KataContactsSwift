@@ -1,0 +1,9 @@
+/* 
+  messages.strings
+  ContactsApp
+
+  Created by Rohit Bansal on 04/10/15.
+*/
+
+name.empty=Name cannot be empty.
+phoneNumber.empty=Phone Number cannot be empty.
