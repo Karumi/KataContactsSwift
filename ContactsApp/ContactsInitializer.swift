@@ -60,7 +60,7 @@ class ContactsInitializer {
             try validateContactDetails(contact)
             saveContactInRepo(contact)
         } catch let error as Exception {
-            print (error.errorMessage)
+            print ("Error: \(error.errorMessage)")
         } catch {
             print ("Ooops! Some unknown error has happened!")
         }

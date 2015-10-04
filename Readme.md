@@ -1,10 +1,8 @@
-[![Build Status](https://travis-ci.org/Karumi/KataContactsSwift.svg?branch=master)](https://travis-ci.org/Karumi/KataContactsSwift)
+[![Build Status](https://travis-ci.org/rohitbansal03/ContactsApp.svg?branch=master)](https://travis-ci.org/rohitbansal03/ContactsApp)
 # Clean Architecture Kata
 
 - We are here to practice Clean Architecture Development.
-
 - Clean Architecture is a way of structuring code.
-
 - We are going to practice pair programming.
 
 ---

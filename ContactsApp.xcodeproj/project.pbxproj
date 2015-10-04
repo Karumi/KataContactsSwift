@@ -60,6 +60,8 @@
 		F916389F1BC10B2800929139 /* ContactRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
 		F91638A01BC10B2800929139 /* DataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceProtocol.swift; sourceTree = "<group>"; };
 		F91638A11BC10B2800929139 /* MemoryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
+		F9B3BC5F1BC16B730007F7DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/messages.strings; sourceTree = "<group>"; };
+		F9B3BC611BC16C040007F7DE /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/messages.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		6BBD312F1BBC19240095BE4F = {
 			isa = PBXGroup;
 			children = (
+				F9B3BC601BC16B730007F7DE /* messages.strings */,
 				6BBD313A1BBC19250095BE4F /* ContactsApp */,
 				6BBD314B1BBC1E3B0095BE4F /* ContactsApp Test */,
 				6BBD31391BBC19250095BE4F /* Products */,
@@ -213,6 +216,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = 6BBD312F1BBC19240095BE4F;
 			productRefGroup = 6BBD31391BBC19250095BE4F /* Products */;
@@ -271,6 +275,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9B3BC601BC16B730007F7DE /* messages.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9B3BC5F1BC16B730007F7DE /* en */,
+				F9B3BC611BC16C040007F7DE /* fr */,
+			);
+			name = messages.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6BBD313D1BBC19250095BE4F /* Debug */ = {

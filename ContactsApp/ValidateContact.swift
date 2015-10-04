@@ -8,12 +8,14 @@
 import Foundation
 
 func validateContactDetails(contact: Contact) throws -> Bool {
-    return try isValidName(contact.firstName) && isValidName(contact.lastName) && isValidPhonenumber(contact.phonenumber)
+    return try isValidName(contact.firstName) && isValidName(contact.lastName)
+        && isValidPhonenumber(contact.phonenumber)
 }
 
 private func isValidName(input: String) throws -> Bool {
     if(input.isEmpty) {
-        throw Exception(errorMessage: "Name cannot be empty")!
+        throw Exception(errorMessage: NSLocalizedString(
+            "name.empty", comment: "Name cannot be empty"))!
     } else {
         return true
     }
@@ -21,7 +23,8 @@ private func isValidName(input: String) throws -> Bool {
 
 private func isValidPhonenumber(input: String) throws -> Bool {
     if(input.isEmpty) {
-        throw Exception(errorMessage: "Phone Number cannot be empty")!
+        throw Exception(errorMessage: NSLocalizedString("phoneNumber.empty",
+            comment: "Phone Number cannot be empty"))!
     } else {
         return true
     }
