@@ -2,14 +2,15 @@
 //  Contact.swift
 //  ContactsApp
 //
-//  Created by Davide Mendolia on 30/09/15.
-//  Copyright © 2015 GoKarumi S.L. All rights reserved.
+//  Created by Rohit Bansal on 04/10/15.
 //
 
 import Foundation
 
-protocol Contact {
-    var firstName: String { get }
-    var lastName: String { get }
-    var phonenumber: String { get }
+struct Contact : ContactProtocol {
+    
+    let firstName: String
+    let lastName: String
+    let phonenumber: String
+    
 }
