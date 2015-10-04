@@ -102,10 +102,10 @@
 		6BBD313A1BBC19250095BE4F /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
+				6BBD315E1BBC375D0095BE4F /* Entities */,
 				F91638961BC0F44700929139 /* Operations */,
 				F91638951BC0F37B00929139 /* Repository */,
 				6BBD313B1BBC19250095BE4F /* main.swift */,
-				6BBD315E1BBC375D0095BE4F /* Entities */,
 				F91638931BC0EF6300929139 /* ContactsInitializer.swift */,
 			);
 			path = ContactsApp;
