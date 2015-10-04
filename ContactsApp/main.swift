@@ -8,6 +8,7 @@
 import Foundation
 
 let contactsInitializer = ContactsInitializer()
-let contactRepository = contactsInitializer.initContactRepository()
+let contactRepository = contactsInitializer.initContactsRepository()
+
 contactsInitializer.initOperations()
 

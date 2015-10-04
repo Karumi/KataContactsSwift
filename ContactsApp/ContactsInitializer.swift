@@ -14,7 +14,7 @@ class ContactsInitializer {
     }()
     
     // Init contact repository from memory datasource
-    func initContactRepository() -> ContactRepositoryProtocol {
+    func initContactsRepository() -> ContactRepositoryProtocol {
         return ContactRepository(datasource: contactDataSource)
     }
     
@@ -29,22 +29,22 @@ class ContactsInitializer {
     // MARK: UI Inputs For Contact Details
     
     func getFirstName() -> String {
-        print("Firstame: ", terminator: "")
+        print("First Name: ", terminator: "")
         return readLine() ?? ""
     }
     func getLastName() -> String {
-        print("Lastname: ", terminator: "")
+        print("Last Name: ", terminator: "")
         return readLine() ?? ""
     }
     func getPhone() -> String {
-        print("Phonenumber: ", terminator: "")
+        print("Phone Number: ", terminator: "")
         return readLine() ?? ""
     }
     
     // MARK: Operations on contact
     
     func listContacts() {
-        print("Listing contacts ...")
+        print("Fetching contacts ...")
         let getContacts = GetContacts(contactRepository: contactRepository)
         let contacts = getContacts.execute()
         showContacts(contacts)
