@@ -8,18 +8,10 @@
 import Foundation
 
 class ContactsInitializer {
-    
-    private lazy var contactDataSource: MemoryDataSource<Contact> = {
-        return MemoryDataSource<Contact>()
-    }()
-    
-    // Init contact repository from memory datasource
-    func initContactsRepository() -> ContactRepositoryProtocol {
-        return ContactRepository(datasource: contactDataSource)
-    }
+
+    let locator = AppServiceLocator()
     
     func initOperations() {
-        listContacts()
         while(true) {
             addContact()
             listContacts()
@@ -41,12 +33,11 @@ class ContactsInitializer {
         return readLine() ?? ""
     }
     
-    // MARK: Operations on contact
+    // MARK: Operations on contact details
     
     func listContacts() {
         print("\nFetching contacts ...")
-        let getContacts = GetContacts(contactRepository: contactRepository)
-        let contacts = getContacts.execute()
+        let contacts = locator.getContacts.execute()
         showContacts(contacts)
     }
     
@@ -54,21 +45,12 @@ class ContactsInitializer {
         let firstName = getFirstName()
         let lastName = getLastName()
         let phone = getPhone()
-        let contact = Contact(firstName: firstName, lastName: lastName, phonenumber : phone)
-        
-        do {
-            try validateContactDetails(contact)
-            saveContactInRepo(contact)
-        } catch let error as Exception {
-            print ("Error: \(error.errorMessage)")
-        } catch {
-            print ("Ooops! Some unknown error has happened!")
+        let contact = ContactDTO(firstName: firstName, lastName: lastName, phonenumber : phone)
+        if(ContactsValidator.isValidContact(contact)) {
+            locator.addContact.execute(contact)
+        } else {
+            print("Please provide valid contact details.")
         }
-    }
-    
-    func saveContactInRepo(contact: Contact) {
-        let addContact = AddContact(contactRepository: contactRepository)
-        addContact.execute(contact)
     }
     
     func showContacts(contacts: [Contact]) {
