@@ -21,4 +21,10 @@
  - UI will be the command line
  - All data is local
  - There is no persistance between execution
+
 ---
+
+## Data Format
+ - Firstname
+ - Lastname
+ - Phonenumber
