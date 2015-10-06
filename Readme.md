@@ -28,3 +28,12 @@
  - Firstname
  - Lastname
  - Phonenumber
+
+---
+
+## References
+
+- [Uncle Bob: The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [The Service Locator Pattern](https://msdn.microsoft.com/en-us/library/ff648968.aspx)
+- [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015-408/)
+- [Introducing Protocol-Oriented Programming in Swift 2](http://www.raywenderlich.com/109156/introducing-protocol-oriented-programming-in-swift-2)
