@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/Karumi/KataContactsSwift.svg?branch=master)](https://travis-ci.org/Karumi/KataContactsSwift)
-# Clean Architecture Kata
+# ![Karumi logo][karumilogo] Clean Architecture Kata [![Build Status](https://travis-ci.org/Karumi/KataContactsSwift.svg?branch=master)](https://travis-ci.org/Karumi/KataContactsSwift)
 
 - We are here to practice Clean Architecture Development.
 
@@ -37,3 +36,5 @@
 - [The Service Locator Pattern](https://msdn.microsoft.com/en-us/library/ff648968.aspx)
 - [Protocol-Oriented Programming in Swift](https://developer.apple.com/videos/play/wwdc2015-408/)
 - [Introducing Protocol-Oriented Programming in Swift 2](http://www.raywenderlich.com/109156/introducing-protocol-oriented-programming-in-swift-2)
+
+[karumilogo]: https://cloud.githubusercontent.com/assets/858090/11626547/e5a1dc66-9ce3-11e5-908d-537e07e82090.png
