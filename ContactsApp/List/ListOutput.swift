@@ -9,7 +9,7 @@
 import Foundation
 
 struct ListOutput: ListUI {
-    func showContacts(contacts: [Contact]) {
+    func show(contacts: [Contact]) {
         if contacts.count > 0 {
             contacts.forEach {
                 print($0)
@@ -21,17 +21,17 @@ struct ListOutput: ListUI {
     }
 
     func getFirstName() -> String {
-        print("Firstame: ", terminator: "")
+        print("First name: ", terminator: "")
         return readLine() ?? ""
     }
 
     func getLastName() -> String {
-        print("Lastname: ", terminator: "")
+        print("Last name: ", terminator: "")
         return readLine() ?? ""
     }
 
     func getPhone() -> String {
-        print("Phonenumber: ", terminator: "")
+        print("Phone number: ", terminator: "")
         return readLine() ?? ""
     }
 

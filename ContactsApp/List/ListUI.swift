@@ -9,7 +9,7 @@
 import Foundation
 
 protocol ListUI {
-    func showContacts(contacts: [Contact])
+    func show(contacts: [Contact])
     func getFirstName() -> String
     func getLastName() -> String
     func getPhone() -> String

@@ -11,5 +11,5 @@ import Foundation
 protocol Contact {
     var firstName: String { get }
     var lastName: String { get }
-    var phonenumber: String { get }
+    var phoneNumber: String { get }
 }

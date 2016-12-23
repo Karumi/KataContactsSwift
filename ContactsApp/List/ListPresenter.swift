@@ -17,30 +17,30 @@ struct ListPresenter {
         loadContacts()
     }
 
-    private func loadContacts() {
+    fileprivate func loadContacts() {
         let contacts = getContactUseCase.execute()
-        ui.showContacts(contacts)
+        ui.show(contacts: contacts)
     }
 
-    private func isValidName(input: String) -> Bool {
-        return !input.isEmpty
+    fileprivate func isNameValid(_ name: String) -> Bool {
+        return !name.isEmpty
     }
 
-    private func isValidPhonenumber(input: String) -> Bool {
-        return !input.isEmpty
+    fileprivate func isPhoneNumberValid(_ phoneNumber: String) -> Bool {
+        return !phoneNumber.isEmpty
     }
 
-    private func isContactInfoValid(firstName: String, lastName: String, phonenumber: String) -> Bool {
-        return !isValidName(firstName)
-            || !isValidName(lastName)
-            || !isValidPhonenumber(phonenumber)
+    fileprivate func isContactInfoValid(firstName: String, lastName: String, phoneNumber: String) -> Bool {
+        return !isNameValid(firstName)
+            || !isNameValid(lastName)
+            || !isPhoneNumberValid(phoneNumber)
     }
 
     func onInputContact() {
         let firstName = ui.getFirstName()
         let lastName = ui.getLastName()
         let phone = ui.getPhone()
-        if isContactInfoValid(firstName, lastName: lastName, phonenumber: phone) {
+        if isContactInfoValid(firstName: firstName, lastName: lastName, phoneNumber: phone) {
             ui.showError()
             return onInputContact()
         }
@@ -48,7 +48,7 @@ struct ListPresenter {
             NewContact(
                 firstName: firstName,
                 lastName: lastName,
-                phonenumber: phone
+                phoneNumber: phone
             )
         )
 
@@ -59,5 +59,5 @@ struct ListPresenter {
 struct NewContact: Contact {
     let firstName: String
     let lastName: String
-    let phonenumber: String
+    let phoneNumber: String
 }
