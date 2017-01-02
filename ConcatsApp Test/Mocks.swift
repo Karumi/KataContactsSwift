@@ -11,12 +11,12 @@ import Foundation
 struct MockContact: Contact {
     let firstName: String
     let lastName: String
-    let phonenumber: String
+    let phoneNumber: String
 }
 
 class MockContactRepository: ContactRepositoryProtocol {
     var contacts: [Contact] = []
-    func add(contact: Contact) { contacts.append(contact) }
+    func add(_ contact: Contact) { contacts.append(contact) }
     func getAll() -> [Contact] { return contacts }
-    func get(index: Int) -> Contact { return contacts[index] }
+    func get(at index: Int) -> Contact { return contacts[index] }
 }

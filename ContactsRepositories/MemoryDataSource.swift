@@ -10,7 +10,7 @@ import Foundation
 
 class MemoryDataSource<T>: DataSourceProtocol {
     var items: [T] = []
-    func add(item: T) { items.append(item) }
+    func add(_ item: T) { items.append(item) }
     func getAll() -> [T] { return items }
-    func get(index: Int) -> T { return items[index] }
+    func get(at index: Int) -> T { return items[index] }
 }

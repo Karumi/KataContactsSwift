@@ -26,7 +26,7 @@ class UseCaseTest: XCTestCase {
             NewContact(
                 firstName: "Vincent",
                 lastName: "Freeman",
-                phonenumber: "612 34 56 79"
+                phoneNumber: "612 34 56 79"
             )
         )
 
@@ -39,7 +39,7 @@ class UseCaseTest: XCTestCase {
         let contact = NewContact(
             firstName: "Vincent",
             lastName: "Freeman",
-            phonenumber: "612 34 56 79"
+            phoneNumber: "612 34 56 79"
         )
         AddContact(contactRepository: contactRepository).execute(contact)
 
@@ -47,6 +47,6 @@ class UseCaseTest: XCTestCase {
 
         XCTAssertEqual(addedContact.firstName, contact.firstName)
         XCTAssertEqual(addedContact.lastName, contact.lastName)
-        XCTAssertEqual(addedContact.phonenumber, contact.phonenumber)
+        XCTAssertEqual(addedContact.phoneNumber, contact.phoneNumber)
     }
 }

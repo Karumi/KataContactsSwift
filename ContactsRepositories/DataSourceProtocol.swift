@@ -9,8 +9,8 @@
 import Foundation
 
 protocol DataSourceProtocol {
-    typealias ItemType
-    func add(contact: ItemType)
+    associatedtype ItemType
+    func add(_ item: ItemType)
     func getAll() -> [ItemType]
-    func get(index: Int) -> ItemType
+    func get(at index: Int) -> ItemType
 }

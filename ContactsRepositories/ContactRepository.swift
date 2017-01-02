@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct ContactRepository<T: DataSourceProtocol where T.ItemType == Contact>: ContactRepositoryProtocol {
+struct ContactRepository<T: DataSourceProtocol>: ContactRepositoryProtocol where T.ItemType == Contact {
     let datasource: T
 
-    func add(contact: Contact) { datasource.add(contact) }
+    func add(_ contact: Contact) { datasource.add(contact) }
     func getAll() -> [Contact] { return datasource.getAll() }
-    func get(index: Int) -> Contact { return datasource.get(index) }
+    func get(at index: Int) -> Contact { return datasource.get(at: index) }
 }

@@ -1,4 +1,8 @@
 language: objective-c
-osx_image: xcode7
-xcode_project: ContactsApp.xcodeproj
-xcode_scheme: ConcatsApp Test
+osx_image: xcode8
+
+before_install:
+  - gem install xcpretty
+
+script:
+  - set -o pipefail && xcodebuild -project ContactsApp.xcodeproj -scheme 'ContactsApp Test' build test | xcpretty -c

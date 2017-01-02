@@ -7,202 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BBD313C1BBC19250095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD313B1BBC19250095BE4F;
-		};
-		6BBD31431BBC19620095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31421BBC19620095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31451BBC1DC20095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31441BBC1DC20095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD314D1BBC1E3B0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD314C1BBC1E3B0095BE4F;
-		};
-		6BBD31541BBC212A0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31421BBC19620095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31551BBC212A0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31441BBC1DC20095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31591BBC233C0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31581BBC233C0095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD315B1BBC23E70095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD315A1BBC23E70095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD315C1BBC248F0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31581BBC233C0095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD315D1BBC248F0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD315A1BBC23E70095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31601BBC37740095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD315F1BBC37740095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31611BBC39660095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD315F1BBC37740095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31631BBC3C1D0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31621BBC3C1D0095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD316A1BBC3DBA0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31691BBC3DBA0095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD316C1BBC3DF90095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD316B1BBC3DF90095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD316E1BBC3E640095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD316D1BBC3E640095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31701BBC40070095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD316F1BBC40070095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31721BBC40D70095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31711BBC40D70095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31741BBC41B20095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31731BBC41B20095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31761BBC448F0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31691BBC3DBA0095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31771BBC448F0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD316D1BBC3E640095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD31781BBC448F0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD316B1BBC3DF90095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD317A1BBC4DEA0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31791BBC4DEA0095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD317B1BBC62AF0095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD316F1BBC40070095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
-		6BBD317C1BBC63B60095BE4F = {
-			isa = PBXBuildFile;
-			fileRef = 6BBD31711BBC40D70095BE4F;
-			settings = {
-				ASSET_TAGS = (
-				);
-			};
-		};
+		6BBD313C1BBC19250095BE4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD313B1BBC19250095BE4F /* main.swift */; };
+		6BBD31431BBC19620095BE4F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31421BBC19620095BE4F /* Contact.swift */; };
+		6BBD31451BBC1DC20095BE4F /* GetContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31441BBC1DC20095BE4F /* GetContacts.swift */; };
+		6BBD314D1BBC1E3B0095BE4F /* UseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD314C1BBC1E3B0095BE4F /* UseCaseTest.swift */; };
+		6BBD31541BBC212A0095BE4F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31421BBC19620095BE4F /* Contact.swift */; };
+		6BBD31551BBC212A0095BE4F /* GetContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31441BBC1DC20095BE4F /* GetContacts.swift */; };
+		6BBD31591BBC233C0095BE4F /* AddContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31581BBC233C0095BE4F /* AddContact.swift */; };
+		6BBD315B1BBC23E70095BE4F /* GetContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD315A1BBC23E70095BE4F /* GetContactDetail.swift */; };
+		6BBD315C1BBC248F0095BE4F /* AddContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31581BBC233C0095BE4F /* AddContact.swift */; };
+		6BBD315D1BBC248F0095BE4F /* GetContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD315A1BBC23E70095BE4F /* GetContactDetail.swift */; };
+		6BBD31601BBC37740095BE4F /* ContactRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD315F1BBC37740095BE4F /* ContactRepositoryProtocol.swift */; };
+		6BBD31611BBC39660095BE4F /* ContactRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD315F1BBC37740095BE4F /* ContactRepositoryProtocol.swift */; };
+		6BBD31631BBC3C1D0095BE4F /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31621BBC3C1D0095BE4F /* Mocks.swift */; };
+		6BBD316A1BBC3DBA0095BE4F /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31691BBC3DBA0095BE4F /* ContactRepository.swift */; };
+		6BBD316C1BBC3DF90095BE4F /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316B1BBC3DF90095BE4F /* MemoryDataSource.swift */; };
+		6BBD316E1BBC3E640095BE4F /* DataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316D1BBC3E640095BE4F /* DataSourceProtocol.swift */; };
+		6BBD31701BBC40070095BE4F /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316F1BBC40070095BE4F /* ListPresenter.swift */; };
+		6BBD31721BBC40D70095BE4F /* ListUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31711BBC40D70095BE4F /* ListUI.swift */; };
+		6BBD31741BBC41B20095BE4F /* ListOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31731BBC41B20095BE4F /* ListOutput.swift */; };
+		6BBD31761BBC448F0095BE4F /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31691BBC3DBA0095BE4F /* ContactRepository.swift */; };
+		6BBD31771BBC448F0095BE4F /* DataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316D1BBC3E640095BE4F /* DataSourceProtocol.swift */; };
+		6BBD31781BBC448F0095BE4F /* MemoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316B1BBC3DF90095BE4F /* MemoryDataSource.swift */; };
+		6BBD317A1BBC4DEA0095BE4F /* AppServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31791BBC4DEA0095BE4F /* AppServiceLocator.swift */; };
+		6BBD317B1BBC62AF0095BE4F /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD316F1BBC40070095BE4F /* ListPresenter.swift */; };
+		6BBD317C1BBC63B60095BE4F /* ListUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD31711BBC40D70095BE4F /* ListUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6BBD31361BBC19250095BE4F = {
+		6BBD31361BBC19250095BE4F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -214,140 +47,35 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6BBD31381BBC19250095BE4F = {
-			isa = PBXFileReference;
-			explicitFileType = "compiled.mach-o.executable";
-			includeInIndex = 0;
-			path = ContactsApp;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6BBD313B1BBC19250095BE4F = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = main.swift;
-			sourceTree = "<group>";
-		};
-		6BBD31421BBC19620095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = Contact.swift;
-			sourceTree = "<group>";
-		};
-		6BBD31441BBC1DC20095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = GetContacts.swift;
-			sourceTree = "<group>";
-		};
-		6BBD314A1BBC1E3B0095BE4F = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.cfbundle;
-			includeInIndex = 0;
-			path = "ConcatsApp Test.xctest";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6BBD314C1BBC1E3B0095BE4F = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.swift;
-			path = UseCaseTest.swift;
-			sourceTree = "<group>";
-		};
-		6BBD314E1BBC1E3B0095BE4F = {
-			isa = PBXFileReference;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		6BBD31581BBC233C0095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = AddContact.swift;
-			sourceTree = "<group>";
-		};
-		6BBD315A1BBC23E70095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = GetContactDetail.swift;
-			sourceTree = "<group>";
-		};
-		6BBD315F1BBC37740095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = ContactRepositoryProtocol.swift;
-			sourceTree = "<group>";
-		};
-		6BBD31621BBC3C1D0095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = Mocks.swift;
-			sourceTree = "<group>";
-		};
-		6BBD31691BBC3DBA0095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = ContactRepository.swift;
-			sourceTree = "<group>";
-		};
-		6BBD316B1BBC3DF90095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = MemoryDataSource.swift;
-			sourceTree = "<group>";
-		};
-		6BBD316D1BBC3E640095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = DataSourceProtocol.swift;
-			sourceTree = "<group>";
-		};
-		6BBD316F1BBC40070095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = ListPresenter.swift;
-			sourceTree = "<group>";
-		};
-		6BBD31711BBC40D70095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = ListUI.swift;
-			sourceTree = "<group>";
-		};
-		6BBD31731BBC41B20095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = ListOutput.swift;
-			sourceTree = "<group>";
-		};
-		6BBD31791BBC4DEA0095BE4F = {
-			isa = PBXFileReference;
-			fileEncoding = 4;
-			lastKnownFileType = sourcecode.swift;
-			path = AppServiceLocator.swift;
-			sourceTree = "<group>";
-		};
+		6BBD31381BBC19250095BE4F /* ContactsApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ContactsApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBD313B1BBC19250095BE4F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6BBD31421BBC19620095BE4F /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		6BBD31441BBC1DC20095BE4F /* GetContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetContacts.swift; sourceTree = "<group>"; };
+		6BBD314A1BBC1E3B0095BE4F /* ConcatsApp Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConcatsApp Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBD314C1BBC1E3B0095BE4F /* UseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseTest.swift; sourceTree = "<group>"; };
+		6BBD314E1BBC1E3B0095BE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BBD31581BBC233C0095BE4F /* AddContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContact.swift; sourceTree = "<group>"; };
+		6BBD315A1BBC23E70095BE4F /* GetContactDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetContactDetail.swift; sourceTree = "<group>"; };
+		6BBD315F1BBC37740095BE4F /* ContactRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepositoryProtocol.swift; sourceTree = "<group>"; };
+		6BBD31621BBC3C1D0095BE4F /* Mocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		6BBD31691BBC3DBA0095BE4F /* ContactRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
+		6BBD316B1BBC3DF90095BE4F /* MemoryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryDataSource.swift; sourceTree = "<group>"; };
+		6BBD316D1BBC3E640095BE4F /* DataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceProtocol.swift; sourceTree = "<group>"; };
+		6BBD316F1BBC40070095BE4F /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		6BBD31711BBC40D70095BE4F /* ListUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListUI.swift; sourceTree = "<group>"; };
+		6BBD31731BBC41B20095BE4F /* ListOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOutput.swift; sourceTree = "<group>"; };
+		6BBD31791BBC4DEA0095BE4F /* AppServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppServiceLocator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6BBD31351BBC19250095BE4F = {
+		6BBD31351BBC19250095BE4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BBD31471BBC1E3B0095BE4F = {
+		6BBD31471BBC1E3B0095BE4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,115 +88,109 @@
 		6BBD312F1BBC19240095BE4F = {
 			isa = PBXGroup;
 			children = (
-				6BBD314B1BBC1E3B0095BE4F,
-				6BBD313A1BBC19250095BE4F,
-				6BBD31681BBC3D5D0095BE4F,
-				6BBD31391BBC19250095BE4F,
+				6BBD314B1BBC1E3B0095BE4F /* ConcatsApp Test */,
+				6BBD313A1BBC19250095BE4F /* ContactsApp */,
+				6BBD31681BBC3D5D0095BE4F /* ContactsRepositories */,
+				6BBD31391BBC19250095BE4F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6BBD31391BBC19250095BE4F = {
+		6BBD31391BBC19250095BE4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD31381BBC19250095BE4F,
-				6BBD314A1BBC1E3B0095BE4F,
+				6BBD31381BBC19250095BE4F /* ContactsApp */,
+				6BBD314A1BBC1E3B0095BE4F /* ConcatsApp Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6BBD313A1BBC19250095BE4F = {
+		6BBD313A1BBC19250095BE4F /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD31641BBC3CB60095BE4F,
-				6BBD31671BBC3D160095BE4F,
-				6BBD31661BBC3CD50095BE4F,
-				6BBD315E1BBC375D0095BE4F,
-				6BBD31651BBC3CC10095BE4F,
-				6BBD31791BBC4DEA0095BE4F,
-				6BBD313B1BBC19250095BE4F,
+				6BBD31641BBC3CB60095BE4F /* Add */,
+				6BBD31671BBC3D160095BE4F /* Boundaries */,
+				6BBD31661BBC3CD50095BE4F /* Detail */,
+				6BBD315E1BBC375D0095BE4F /* Entities */,
+				6BBD31651BBC3CC10095BE4F /* List */,
+				6BBD31791BBC4DEA0095BE4F /* AppServiceLocator.swift */,
+				6BBD313B1BBC19250095BE4F /* main.swift */,
 			);
 			path = ContactsApp;
 			sourceTree = "<group>";
 		};
-		6BBD314B1BBC1E3B0095BE4F = {
+		6BBD314B1BBC1E3B0095BE4F /* ConcatsApp Test */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD314E1BBC1E3B0095BE4F,
-				6BBD31621BBC3C1D0095BE4F,
-				6BBD314C1BBC1E3B0095BE4F,
+				6BBD314E1BBC1E3B0095BE4F /* Info.plist */,
+				6BBD31621BBC3C1D0095BE4F /* Mocks.swift */,
+				6BBD314C1BBC1E3B0095BE4F /* UseCaseTest.swift */,
 			);
 			path = "ConcatsApp Test";
 			sourceTree = "<group>";
 		};
-		6BBD315E1BBC375D0095BE4F = {
+		6BBD315E1BBC375D0095BE4F /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD31421BBC19620095BE4F,
+				6BBD31421BBC19620095BE4F /* Contact.swift */,
 			);
-			name = Entities;
 			path = Entities;
 			sourceTree = "<group>";
 		};
-		6BBD31641BBC3CB60095BE4F = {
+		6BBD31641BBC3CB60095BE4F /* Add */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD31581BBC233C0095BE4F,
+				6BBD31581BBC233C0095BE4F /* AddContact.swift */,
 			);
-			name = Add;
 			path = Add;
 			sourceTree = "<group>";
 		};
-		6BBD31651BBC3CC10095BE4F = {
+		6BBD31651BBC3CC10095BE4F /* List */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD31441BBC1DC20095BE4F,
-				6BBD31731BBC41B20095BE4F,
-				6BBD316F1BBC40070095BE4F,
-				6BBD31711BBC40D70095BE4F,
+				6BBD31441BBC1DC20095BE4F /* GetContacts.swift */,
+				6BBD31731BBC41B20095BE4F /* ListOutput.swift */,
+				6BBD316F1BBC40070095BE4F /* ListPresenter.swift */,
+				6BBD31711BBC40D70095BE4F /* ListUI.swift */,
 			);
-			name = List;
 			path = List;
 			sourceTree = "<group>";
 		};
-		6BBD31661BBC3CD50095BE4F = {
+		6BBD31661BBC3CD50095BE4F /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD315A1BBC23E70095BE4F,
+				6BBD315A1BBC23E70095BE4F /* GetContactDetail.swift */,
 			);
-			name = Detail;
 			path = Detail;
 			sourceTree = "<group>";
 		};
-		6BBD31671BBC3D160095BE4F = {
+		6BBD31671BBC3D160095BE4F /* Boundaries */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD315F1BBC37740095BE4F,
+				6BBD315F1BBC37740095BE4F /* ContactRepositoryProtocol.swift */,
 			);
-			name = Boundaries;
 			path = Boundaries;
 			sourceTree = "<group>";
 		};
-		6BBD31681BBC3D5D0095BE4F = {
+		6BBD31681BBC3D5D0095BE4F /* ContactsRepositories */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD31691BBC3DBA0095BE4F,
-				6BBD316D1BBC3E640095BE4F,
-				6BBD316B1BBC3DF90095BE4F,
+				6BBD31691BBC3DBA0095BE4F /* ContactRepository.swift */,
+				6BBD316D1BBC3E640095BE4F /* DataSourceProtocol.swift */,
+				6BBD316B1BBC3DF90095BE4F /* MemoryDataSource.swift */,
 			);
-			name = ContactsRepositories;
 			path = ContactsRepositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6BBD31371BBC19250095BE4F = {
+		6BBD31371BBC19250095BE4F /* ContactsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BBD313F1BBC19250095BE4F;
+			buildConfigurationList = 6BBD313F1BBC19250095BE4F /* Build configuration list for PBXNativeTarget "ContactsApp" */;
 			buildPhases = (
-				6BBD31341BBC19250095BE4F,
-				6BBD31351BBC19250095BE4F,
-				6BBD31361BBC19250095BE4F,
+				6BBD31341BBC19250095BE4F /* Sources */,
+				6BBD31351BBC19250095BE4F /* Frameworks */,
+				6BBD31361BBC19250095BE4F /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -476,16 +198,16 @@
 			);
 			name = ContactsApp;
 			productName = ContactsApp;
-			productReference = 6BBD31381BBC19250095BE4F;
+			productReference = 6BBD31381BBC19250095BE4F /* ContactsApp */;
 			productType = "com.apple.product-type.tool";
 		};
-		6BBD31491BBC1E3B0095BE4F = {
+		6BBD31491BBC1E3B0095BE4F /* ConcatsApp Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BBD314F1BBC1E3B0095BE4F;
+			buildConfigurationList = 6BBD314F1BBC1E3B0095BE4F /* Build configuration list for PBXNativeTarget "ConcatsApp Test" */;
 			buildPhases = (
-				6BBD31461BBC1E3B0095BE4F,
-				6BBD31471BBC1E3B0095BE4F,
-				6BBD31481BBC1E3B0095BE4F,
+				6BBD31461BBC1E3B0095BE4F /* Sources */,
+				6BBD31471BBC1E3B0095BE4F /* Frameworks */,
+				6BBD31481BBC1E3B0095BE4F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -493,27 +215,29 @@
 			);
 			name = "ConcatsApp Test";
 			productName = "ConcatsApp Test";
-			productReference = 6BBD314A1BBC1E3B0095BE4F;
+			productReference = 6BBD314A1BBC1E3B0095BE4F /* ConcatsApp Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6BBD31301BBC19250095BE4F = {
+		6BBD31301BBC19250095BE4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "GoKarumi S.L.";
 				TargetAttributes = {
 					6BBD31371BBC19250095BE4F = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 					6BBD31491BBC1E3B0095BE4F = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
-			buildConfigurationList = 6BBD31331BBC19250095BE4F;
+			buildConfigurationList = 6BBD31331BBC19250095BE4F /* Build configuration list for PBXProject "ContactsApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -521,20 +245,18 @@
 				en,
 			);
 			mainGroup = 6BBD312F1BBC19240095BE4F;
-			productRefGroup = 6BBD31391BBC19250095BE4F;
+			productRefGroup = 6BBD31391BBC19250095BE4F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
-				6BBD31371BBC19250095BE4F,
-				6BBD31491BBC1E3B0095BE4F,
+				6BBD31371BBC19250095BE4F /* ContactsApp */,
+				6BBD31491BBC1E3B0095BE4F /* ConcatsApp Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6BBD31481BBC1E3B0095BE4F = {
+		6BBD31481BBC1E3B0095BE4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -544,49 +266,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6BBD31341BBC19250095BE4F = {
+		6BBD31341BBC19250095BE4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BBD31771BBC448F0095BE4F,
-				6BBD317A1BBC4DEA0095BE4F,
-				6BBD31781BBC448F0095BE4F,
-				6BBD31741BBC41B20095BE4F,
-				6BBD31701BBC40070095BE4F,
-				6BBD31721BBC40D70095BE4F,
-				6BBD31591BBC233C0095BE4F,
-				6BBD31761BBC448F0095BE4F,
-				6BBD31601BBC37740095BE4F,
-				6BBD31431BBC19620095BE4F,
-				6BBD315B1BBC23E70095BE4F,
-				6BBD31451BBC1DC20095BE4F,
-				6BBD313C1BBC19250095BE4F,
+				6BBD31771BBC448F0095BE4F /* DataSourceProtocol.swift in Sources */,
+				6BBD317A1BBC4DEA0095BE4F /* AppServiceLocator.swift in Sources */,
+				6BBD31781BBC448F0095BE4F /* MemoryDataSource.swift in Sources */,
+				6BBD31741BBC41B20095BE4F /* ListOutput.swift in Sources */,
+				6BBD31701BBC40070095BE4F /* ListPresenter.swift in Sources */,
+				6BBD31721BBC40D70095BE4F /* ListUI.swift in Sources */,
+				6BBD31591BBC233C0095BE4F /* AddContact.swift in Sources */,
+				6BBD31761BBC448F0095BE4F /* ContactRepository.swift in Sources */,
+				6BBD31601BBC37740095BE4F /* ContactRepositoryProtocol.swift in Sources */,
+				6BBD31431BBC19620095BE4F /* Contact.swift in Sources */,
+				6BBD315B1BBC23E70095BE4F /* GetContactDetail.swift in Sources */,
+				6BBD31451BBC1DC20095BE4F /* GetContacts.swift in Sources */,
+				6BBD313C1BBC19250095BE4F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BBD31461BBC1E3B0095BE4F = {
+		6BBD31461BBC1E3B0095BE4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BBD315C1BBC248F0095BE4F,
-				6BBD317C1BBC63B60095BE4F,
-				6BBD316C1BBC3DF90095BE4F,
-				6BBD316E1BBC3E640095BE4F,
-				6BBD31541BBC212A0095BE4F,
-				6BBD31611BBC39660095BE4F,
-				6BBD315D1BBC248F0095BE4F,
-				6BBD31631BBC3C1D0095BE4F,
-				6BBD31551BBC212A0095BE4F,
-				6BBD317B1BBC62AF0095BE4F,
-				6BBD316A1BBC3DBA0095BE4F,
-				6BBD314D1BBC1E3B0095BE4F,
+				6BBD315C1BBC248F0095BE4F /* AddContact.swift in Sources */,
+				6BBD317C1BBC63B60095BE4F /* ListUI.swift in Sources */,
+				6BBD316C1BBC3DF90095BE4F /* MemoryDataSource.swift in Sources */,
+				6BBD316E1BBC3E640095BE4F /* DataSourceProtocol.swift in Sources */,
+				6BBD31541BBC212A0095BE4F /* Contact.swift in Sources */,
+				6BBD31611BBC39660095BE4F /* ContactRepositoryProtocol.swift in Sources */,
+				6BBD315D1BBC248F0095BE4F /* GetContactDetail.swift in Sources */,
+				6BBD31631BBC3C1D0095BE4F /* Mocks.swift in Sources */,
+				6BBD31551BBC212A0095BE4F /* GetContacts.swift in Sources */,
+				6BBD317B1BBC62AF0095BE4F /* ListPresenter.swift in Sources */,
+				6BBD316A1BBC3DBA0095BE4F /* ContactRepository.swift in Sources */,
+				6BBD314D1BBC1E3B0095BE4F /* UseCaseTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6BBD313D1BBC19250095BE4F = {
+		6BBD313D1BBC19250095BE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -599,8 +321,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -629,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		6BBD313E1BBC19250095BE4F = {
+		6BBD313E1BBC19250095BE4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -642,8 +366,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -661,24 +387,27 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
-		6BBD31401BBC19250095BE4F = {
+		6BBD31401BBC19250095BE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		6BBD31411BBC19250095BE4F = {
+		6BBD31411BBC19250095BE4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		6BBD31501BBC1E3B0095BE4F = {
+		6BBD31501BBC1E3B0095BE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -686,10 +415,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.karumi.ConcatsApp-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		6BBD31511BBC1E3B0095BE4F = {
+		6BBD31511BBC1E3B0095BE4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -697,38 +427,41 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.karumi.ConcatsApp-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6BBD31331BBC19250095BE4F = {
+		6BBD31331BBC19250095BE4F /* Build configuration list for PBXProject "ContactsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BBD313D1BBC19250095BE4F,
-				6BBD313E1BBC19250095BE4F,
+				6BBD313D1BBC19250095BE4F /* Debug */,
+				6BBD313E1BBC19250095BE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BBD313F1BBC19250095BE4F = {
+		6BBD313F1BBC19250095BE4F /* Build configuration list for PBXNativeTarget "ContactsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BBD31401BBC19250095BE4F,
-				6BBD31411BBC19250095BE4F,
+				6BBD31401BBC19250095BE4F /* Debug */,
+				6BBD31411BBC19250095BE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6BBD314F1BBC1E3B0095BE4F = {
+		6BBD314F1BBC1E3B0095BE4F /* Build configuration list for PBXNativeTarget "ConcatsApp Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BBD31501BBC1E3B0095BE4F,
-				6BBD31511BBC1E3B0095BE4F,
+				6BBD31501BBC1E3B0095BE4F /* Debug */,
+				6BBD31511BBC1E3B0095BE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6BBD31301BBC19250095BE4F;
+	rootObject = 6BBD31301BBC19250095BE4F /* Project object */;
 }
