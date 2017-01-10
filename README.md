@@ -11,7 +11,7 @@
 ## Product requirements - Contacts App
 
 - I want to be able to list my contacts
-- I want to be albe to add a contact
+- I want to be able to add a contact
 - I want to be able to see all the information of a selected contact
 
 ---
@@ -19,7 +19,7 @@
 ## Development platform
  - UI will be the command line
  - All data is local
- - There is no persistance between execution
+ - There is no persistence between executions
 
 ---
 
