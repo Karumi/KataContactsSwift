@@ -32,7 +32,9 @@
 
 ## References
 
-- [Uncle Bob: The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-- [The Service Locator Pattern](https://msdn.microsoft.com/en-us/library/ff648968.aspx)
+* [Uncle Bob: The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+* [The Service Locator Pattern](https://msdn.microsoft.com/en-us/library/ff648968.aspx)
+* [Kata Contacts in Java](https://github.com/Karumi/KataContactsJava)
+* [Kata Contacts in Kotlin](https://github.com/Karumi/KataContactsKotlin)
 
 [karumilogo]: https://cloud.githubusercontent.com/assets/858090/11626547/e5a1dc66-9ce3-11e5-908d-537e07e82090.png
