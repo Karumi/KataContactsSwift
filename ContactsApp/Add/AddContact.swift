@@ -11,7 +11,7 @@ import Foundation
 struct AddContact {
     let contactRepository: ContactRepositoryProtocol
 
-    func execute(_ contact: Contact) {
+    func callAsFunction(_ contact: Contact) {
         contactRepository.add(contact)
     }
 }
