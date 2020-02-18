@@ -44,7 +44,7 @@ struct ListPresenter {
             ui.showError()
             return onInputContact()
         }
-        addContactUseCase.execute(
+        addContactUseCase(
             NewContact(
                 firstName: firstName,
                 lastName: lastName,

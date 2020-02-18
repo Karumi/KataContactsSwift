@@ -22,7 +22,7 @@ class UseCaseTest: XCTestCase {
         let contactRepository = MockContactRepository()
         let useCase = AddContact(contactRepository: contactRepository)
 
-        useCase.execute(
+        useCase(
             NewContact(
                 firstName: "Vincent",
                 lastName: "Freeman",
@@ -41,9 +41,9 @@ class UseCaseTest: XCTestCase {
             lastName: "Freeman",
             phoneNumber: "612 34 56 79"
         )
-        AddContact(contactRepository: contactRepository).execute(contact)
+        AddContact(contactRepository: contactRepository)(contact)
 
-        let addedContact = GetContactDetail(contactRepository: contactRepository).execute(0)
+        let addedContact = GetContactDetail(contactRepository: contactRepository)(0)
 
         XCTAssertEqual(addedContact.firstName, contact.firstName)
         XCTAssertEqual(addedContact.lastName, contact.lastName)

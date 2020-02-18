@@ -11,7 +11,7 @@ import Foundation
 struct GetContactDetail {
     let contactRepository: ContactRepositoryProtocol
 
-    func execute(_ index: Int) -> Contact {
+    func callAsFunction(_ index: Int) -> Contact {
         return contactRepository.get(at: index)
     }
 }
