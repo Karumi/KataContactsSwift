@@ -37,6 +37,16 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6BBD31491BBC1E3B0095BE4F"
+               BuildableName = "ConcatsApp Test.xctest"
+               BlueprintName = "ConcatsApp Test"
+               ReferencedContainer = "container:ContactsApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
